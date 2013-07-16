@@ -1,0 +1,4 @@
+{% macro settings_language(lang) -%}
+	<a href="{{ url_for('admin.settings') }}/en"><span class="label{{ ' label-info' if lang == 'en' }}">en</span></a>
+	<a href="{{ url_for('admin.settings') }}/ru"><span class="label{{ ' label-info' if lang == 'ru' }}">ru</span></a>
+{%- endmacro %}

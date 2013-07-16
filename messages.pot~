@@ -1,0 +1,111 @@
+# Translations template for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-04 17:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: blueprints/admin.py:34
+msgid "Your session has expired. Please log in again"
+msgstr ""
+
+#: blueprints/admin.py:71
+msgid "Wrong username or password!"
+msgstr ""
+
+#: blueprints/admin.py:96
+msgid "No empty fields allowed (excl. password)"
+msgstr ""
+
+#: blueprints/admin.py:97
+msgid "Data updated"
+msgstr ""
+
+#: blueprints/admin.py:116
+msgid "Passwords should match"
+msgstr ""
+
+#: blueprints/admin.py:158
+msgid "You logged out"
+msgstr ""
+
+#: templates/404.html:5
+msgid "404 Not Found"
+msgstr ""
+
+#: templates/404.html:11
+msgid "Page not found"
+msgstr ""
+
+#: templates/index.html:1
+msgid "Fuck yeah"
+msgstr ""
+
+#: templates/index.html:2
+msgid "Search"
+msgstr ""
+
+#: templates/admin/header.html:2
+msgid "Home"
+msgstr ""
+
+#: templates/admin/header.html:3
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/header.html:4
+msgid "User"
+msgstr ""
+
+#: templates/admin/header.html:5
+msgid "Logout"
+msgstr ""
+
+#: templates/admin/login.html:3
+msgid "Log in"
+msgstr ""
+
+#: templates/admin/login.html:10 templates/admin/user.html:14
+msgid "User name"
+msgstr ""
+
+#: templates/admin/login.html:11
+msgid "Password"
+msgstr ""
+
+#: templates/admin/login.html:13
+msgid "Sign in"
+msgstr ""
+
+#: templates/admin/panel.html:3
+msgid "Main panel"
+msgstr ""
+
+#: templates/admin/settings.html:3
+msgid "Site settings"
+msgstr ""
+
+#: templates/admin/user.html:3
+msgid "User settings"
+msgstr ""
+
+#: templates/admin/user.html:20
+msgid "E-Mail"
+msgstr ""
+
+#: templates/admin/user.html:26
+msgid "Password, twice"
+msgstr ""
+

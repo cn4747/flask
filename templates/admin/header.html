@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs">
+	<li class="active"><a href="{{ url_for('admin.index') }}panel">{% trans %}Home{% endtrans %}</a></li>
+	<li><a href="{{ url_for('admin.settings') }}">{% trans %}Settings{% endtrans %}</a></li>
+	<li><a href="{{ url_for('admin.user') }}">{% trans %}User{% endtrans %}</a></li>
+	<li><a href="{{ url_for('admin.index') }}logout">{% trans %}Logout{% endtrans %}</a></li>
+</ul>
+
+<div class="lang">
+	<a href="{{ url_for('admin.index') }}lang/en"><span class="label{{ ' label-info' if global_language == 'en' }}">{{ _('English') }}</span></a> | 
+	<a href="{{ url_for('admin.index') }}lang/ru"><span class="label{{ ' label-info' if global_language == 'ru' }}">{{ _('Russian') }}</span></a>
+</div>

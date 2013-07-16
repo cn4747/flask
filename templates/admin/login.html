@@ -1,0 +1,17 @@
+{% extends "admin/layout.html" %}
+
+{% block title %}{% trans %}Log in{% endtrans %}{% endblock %}
+
+{% block body %}
+	<div class="row">
+		<div class="pagination-centered">
+		<form action="{{ url_for('admin.index') }}" class="login" method="POST">
+			{% if message %}<div class="alert">{{ message }}</div>{% endif %}
+			<input type="text" name="login" placeholder="{% trans %}User name{% endtrans %}"><br>
+			<input type="password" name="password" placeholder="{% trans %}Password{% endtrans %}"><br>
+
+			<input type="submit" class="btn" value="{% trans %}Sign in{% endtrans %}"><br>
+		</form>
+		</div>
+	</div>
+{% endblock %}

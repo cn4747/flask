@@ -1,0 +1,111 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-04 17:02+0100\n"
+"PO-Revision-Date: 2013-03-04 17:02+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: blueprints/admin.py:34
+msgid "Your session has expired. Please log in again"
+msgstr "Сессия завершена. Войдите в систему повторно"
+
+#: blueprints/admin.py:71
+msgid "Wrong username or password!"
+msgstr "Неправильное имя пользователя или пароль"
+
+#: blueprints/admin.py:96
+msgid "No empty fields allowed (excl. password)"
+msgstr "Пустые поля не разрешены (разрешается оставить пустым пароль)"
+
+#: blueprints/admin.py:97
+msgid "Data updated"
+msgstr "Данные обновлены"
+
+#: blueprints/admin.py:116
+msgid "Passwords should match"
+msgstr "Пароли должны совпадать"
+
+#: blueprints/admin.py:158
+msgid "You logged out"
+msgstr "Вы вышли из системы"
+
+#: templates/404.html:5
+msgid "404 Not Found"
+msgstr "Ошибка - Страница не найдена"
+
+#: templates/404.html:11
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: templates/index.html:1
+msgid "Fuck yeah"
+msgstr "Нда"
+
+#: templates/index.html:2
+msgid "Search"
+msgstr "Поиск"
+
+#: templates/admin/header.html:2
+msgid "Home"
+msgstr "Главная"
+
+#: templates/admin/header.html:3
+msgid "Settings"
+msgstr "Настройки"
+
+#: templates/admin/header.html:4
+msgid "User"
+msgstr "Пользователь"
+
+#: templates/admin/header.html:5
+msgid "Logout"
+msgstr "Выйти"
+
+#: templates/admin/login.html:3
+msgid "Log in"
+msgstr "Войти"
+
+#: templates/admin/login.html:10 templates/admin/user.html:14
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: templates/admin/login.html:11
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/admin/login.html:13
+msgid "Sign in"
+msgstr "Войти"
+
+#: templates/admin/panel.html:3
+msgid "Main panel"
+msgstr "Панель управления"
+
+#: templates/admin/settings.html:3
+msgid "Site settings"
+msgstr "Настройки"
+
+#: templates/admin/user.html:3
+msgid "User settings"
+msgstr "Пользователь"
+
+#: templates/admin/user.html:20
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: templates/admin/user.html:26
+msgid "Password, twice"
+msgstr "Пароль, еще раз"

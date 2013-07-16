@@ -1,0 +1,43 @@
+{% extends "admin/layout.html" %}
+
+{% block title %}{% trans %}Site settings{% endtrans %}{% endblock %}
+
+{% block body %}
+{% include 'admin/header.html' %}
+{% import 'admin/macros.html' as macros with context %}
+
+<h2>{{ self.title() }}</h2>
+
+<form method="POST" class="form-horizontal">
+	<div class="control-group">
+		<div class="controls">
+			<p>{{ _('For language') }}:
+			{{ macros.settings_language(language) }}
+			</p>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="siteTitle">{{ _('Site title') }}</label>
+		<div class="controls">
+			<input type="text" id="siteTitle" class="input-xxlarge" name="s[site_title]" value="{{ settings['site_title'] }}"><br>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="title1">{{ _('Title 1') }}</label>
+		<div class="controls">
+			<input type="text" id="title1" class="input-xxlarge" name="s[title1]" value="{{ settings['title1'] }}"><br>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="title2">{{ _('Title 2') }}</label>
+		<div class="controls">
+			<input type="text" id="title2" class="input-xxlarge" name="s[title2]" value="{{ settings['title2'] }}"><br>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<input type="submit" class="btn">
+		</div>
+	</div>
+</form>
+{% endblock %}

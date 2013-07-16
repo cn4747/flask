@@ -1,0 +1,16 @@
+{% extends admin/layout.html %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ title }}</title>
+		<link href="{{ url_for('static', filename='adm/css/bootstrap.min.css') }}" rel="stylesheet">
+		<link href="{{ url_for('static', filename='adm/css/admin.style.css') }}" rel="stylesheet">
+	</head>
+	
+	<body>
+		{% block header %}{% endblock %}
+		{% block body %}{% endblock %}
+		{% block footer %}{% endblock %}
+	</body>
+</html>

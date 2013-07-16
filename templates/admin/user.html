@@ -1,0 +1,39 @@
+{% extends "admin/layout.html" %}
+
+{% block title %}{% trans %}User settings{% endtrans %}{% endblock %}
+
+{% block body %}
+{% include 'admin/header.html' %}
+
+<h2>{{ self.title() }}</h2>
+
+{% if msg %}<div class="alert{% if not error %} alert-success{% endif %}">{{ msg }}</div>{% endif %}
+
+<form method="POST" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label" for="inputLogin">{% trans %}User name{% endtrans %}</label>
+		<div class="controls">
+			<input id="inputLogin" type="text" name="login" value="{{ form.login }}">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="inputEmail">{% trans %}E-Mail{% endtrans %}</label>
+		<div class="controls">
+			<input id="inputEmail" type="text" name="email" value="{{ form.email }}">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="inputPass1">{% trans %}Password, twice{% endtrans %}</label>
+		<div class="controls">
+			<input id="inputPass1" type="password" name="pass1" value="{{ form.password1 }}">
+			<input id="inputPass2" type="password" name="pass2" value="{{ form.password2 }}">
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<input type="submit" class="btn">
+		</div>
+	</div>
+</form>
+
+{% endblock %}
